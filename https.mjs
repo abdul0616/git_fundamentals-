@@ -18,6 +18,8 @@ function makeRequest(url, data){
 
 const responseData = makeRequest('https://www.google.com','data')
 
+console.log("this is the data")
+
 console.log(responseData)  
 
 
