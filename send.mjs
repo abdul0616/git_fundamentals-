@@ -12,4 +12,5 @@ function send(url, data){
 
 export {  
     send,
+    encrypt
 }
