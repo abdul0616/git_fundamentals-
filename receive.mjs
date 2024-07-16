@@ -7,7 +7,12 @@ function read(){
     return decrypt('data')
 }
 
+function log(data){
+    console.log(data)
+}
+
 export {
     read,
-    decrypt
+    decrypt,
+    log
 }
